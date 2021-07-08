@@ -1,0 +1,142 @@
+html,body{
+    height: 100%;
+
+}
+
+#pageContainer{
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+}
+#mustHeadContainer{
+  width: 100%;
+    height: 56px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 6px 17px;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+#mustHeadContainer button:not(.searchButton),
+#mustHeadContainer .rightIcons img
+{
+  cursor: pointer;
+    width: 40px;
+    height: 40;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    border: none;
+}
+.logoContainer img {
+  width: 170px;
+  height: 32px;
+  margin-left: 8px;
+}
+#mustHeadContainer .searchBarContainer{
+    margin: 0 40px;
+    flex: 1;
+    display: flex;
+}
+#mustHeadContainer .searchBarContainer form{
+    flex: 1;
+    display: flex;
+}
+#mustHeadContainer .searchBar{
+    flex: 1;
+    color: #111;
+    max-width: 600px;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+}
+#sideNavContainer{
+  width: 240px;
+    background-color: #f5f5f5;
+    /* margin-top: 57px; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 57px;
+}
+#mainSectionContainer{
+    padding-top: 56px;
+}
+#mainContentConteiner{
+  padding: 10px 30px;
+  display: flex;
+  flex: 1;
+}
+
+#mainSectionContainer.leftPadding{/*????*/
+    padding-left: 248px;
+}
+.column{
+    flex-grow: 1;
+    background-color: #ffff;
+    min-height: 380px;
+    padding: 20px;
+
+}
+.signInContainer{
+    background-color: #efefee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signInContainer .column .header img{
+  width: 100px;
+}
+.signInContainer .column{
+    flex-grow: 0;
+    width: 450px;
+    padding: 20px;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.signInContainer .column .header{
+  padding: 20px;
+}
+.signInContainer .column form{
+    display: flex;
+    flex-direction: column;
+}
+.signInContainer .column form input[type="text"],
+.signInContainer .column form input[type="email"],
+.signInContainer .column form input[type="password"]{
+    font-size: 14px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #dedede;
+}
+.signInContainer .column form input[type="submit"]{
+    background-color: #4285f4;
+    color: #fff;
+    height: 36px;
+    width: 88px;
+    border: none;
+    margin-bottom: 20px;
+}
+.watchLeftColumn{
+  flex: 1;
+}
+/* klasa u funkciji za kreiranje videa*/
+.watchLeftColumn .videoPlayer{
+  width: 100%;
+}
+.suggestions{
+  max-width: 825px;
+  flex-grow: 1;
+  height: 100%;
+  padding-left: 25px;
+}
