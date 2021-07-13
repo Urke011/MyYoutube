@@ -5,6 +5,6 @@ A simple Youtube project using Html, Css, Bootstrap, Php, JavaScript(Jquery), My
 - Membership - Register, Login / Logout 
 - Video - formating in Mp4, delete origin version, make thumbnail
 - Upload - User can upload video and see it
-- Thumbnail - User can make Thubmnails
+- Thumbnail - User can make thubmnails
 - User can like or dislike videos
 
